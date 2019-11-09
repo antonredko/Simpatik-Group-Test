@@ -6,7 +6,7 @@
 body {
   width: 100%;
 }
-body div:first-child {
+.first {
   height: 665px;
 }
 .head {
@@ -135,6 +135,7 @@ img {
   height: 210px;
   position: relative;
   margin: 0 auto 40px auto;
+  display: block;
 }
 .nameCongr, .success, .redDiplom {
   position: absolute;
@@ -191,17 +192,20 @@ img {
 .branchRight {
   right: 0px;
 }
+.block {
+  display: block;
+  width: 1170px;
+  margin: 0 auto;
+}
 .third {
   width: 1170px;
-  position: absolute;
-  left: 50%;
-  margin-left: -585px;
-  display: flex;
-  flex-direction: row;
+  height: 565px;
+  margin: 0 auto;
 }
 .prizeMe {
   width: 573px;
   margin-left: 141px;
+  float: left;
   display: flex;
   flex-direction: column;
 }
@@ -263,6 +267,7 @@ span.yellBackgr {
 }
 .diplomView {
   width: 453px;
+  float: right;
   display: flex;
   flex-direction: column;
 }
@@ -303,9 +308,7 @@ span.yellBackgr {
   width: 853px;
   height: 134px;
   border: 11px solid #DBAB00;
-  position: relative;
-  top: 570px;
-  margin: 0 auto;
+  margin: 0 auto 37px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,6 +324,82 @@ span.yellBackgr {
 }
 .secondBrown {
   height: 648px;
-  position: relative;
-  top: 610px;
+}
+.man {
+  margin-right: 21px;
+}
+.deliveryBrown {
+  width: 988px;
+  height: 638px;
+  position: absolute;
+  left: 50%;
+  margin-left: -494px;
+}
+.deliveryBrown p:first-child {
+  width: 138px;
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+  line-height: 42px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  margin-left: -69px;
+}
+.deliveryBrown p:nth-child(2) {
+  width: 506px;
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 96px;
+  left: 50%;
+  margin-left: -233px;
+}
+.deliveryBrown p:nth-child(3) {
+  width: 504px;
+  height: 66px;
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFE484;
+  position: absolute;
+  top: 149px;
+  left: 50%;
+  margin-left: -252px;
+  text-shadow: 0px 0px 50px #F1CE30;
+}
+.deliveryBrown span.line {
+  top: 249px;
+  left: 50%;
+  margin-left: -217.5px;
+}
+.deliveryBrown .weAreReady {
+  width: 420px;
+  height: 97.78px;
+  position: absolute;
+  top: 300px;
+  margin-left: 47px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.deliveryBrown .youMay {
+  width: 391px;
+  height: 98px;
+  position: absolute;
+  top: 411px;
+  margin-left: 49px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.fourth {
+  width: 1170px;
 }
