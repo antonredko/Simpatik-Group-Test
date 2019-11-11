@@ -122,7 +122,7 @@
 		<div class="blankBord">
 			<div class="blankSm">
 				<p class="titleBlank">БЛАНК НА ДОСТАВКУ ВИГРАШУ</p>
-				<div>
+				<div class="withPre">
 					<img src="img/checked.png" alt="checked">
 					<pre>
 Я, {{Name}},
@@ -138,16 +138,32 @@
 					<label><input type="radio" name="choose"><i></i>Четвертого тижня виплат (20–26.05)</label>
 					<label><input type="radio" name="choose"><i></i>П’ятого тижня виплат (27.05–31.05)</label>
 				</form>
-				<p class="dayofweek">В зручний для мене день тижня:</p>
-				<select name="days" id="days">
-					<option value="Понеділок">Понеділок</option>
-					<option value="Вівторок">Вівторок</option>
-					<option value="Середа">Середа</option>
-					<option value="Четвер">Четвер</option>
-					<option value="П'ятниця">П'ятниця</option>
-					<option value="Субота">Субота</option>
-					<option value="Неділя">Неділя</option>
-				</select>
+				<div>
+					<p class="dayofweek">В зручний для мене день тижня:</p>
+					<select name="days" id="days">
+						<option value="Понеділок">Понеділок</option>
+						<option value="Вівторок">Вівторок</option>
+						<option value="Середа">Середа</option>
+						<option value="Четвер">Четвер</option>
+						<option value="П'ятниця">П'ятниця</option>
+						<option value="Субота">Субота</option>
+						<option value="Неділя">Неділя</option>
+					</select>
+				</div>
+				<div class="tel">
+					<p>Номер телефону для зв’язку з Вами та уточнення адреси доставки:</p>
+					<input type="tel" placeholder="+38 050 123 45 67">
+				</div>
+				<p>Адреса доставки:</p>
+				<input type="text" maxlength="1000" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири">
+				<label>
+					<input type="checkbox"><i></i>
+					<p>Я відмовляюсь від БЕЗКОШТОВНОЇ доставки мені виграшу. Прошу вислати мені 317 000,00 гривень поштовим переказом.</p>
+				</label>
+				<label class="checked">
+					<input type="checkbox" checked><i></i>
+					<p>Я заповнюю цей документ і роблю обов’язкове замовлення товарів.<span class="star">*</span></p>
+				</label>
 			</div>
 		</div>
 		<a href="#items">НАДІСЛАТИ</a>
