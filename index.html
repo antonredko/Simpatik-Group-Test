@@ -23,7 +23,7 @@
 			<p class="giving forU">На Вас чекає грандіозне нагородження!</p>
 			<span class="line"></span>
 			<p class="congr">Від щирого серця вітаю Вас! Ви заслужено здобули перемогу і будете винагороджені по максимуму! Мені приємно усвідомлювати, що саме Ви отримаєте Головний приз Акції – 317 000,00 гривень!<span class="star">*</span></p>
-			<a href="#">ОБРАТИ ДАТУ НАГОРОДЖЕННЯ</a>
+			<a href="#seventh">ОБРАТИ ДАТУ НАГОРОДЖЕННЯ</a>
 		</div>
 	</div>
 	<div class="second">
@@ -52,7 +52,7 @@
 		</div>
 	</div>
 	<div class="delivery">
-		<p>Завдяки Вашому ЧЕРВОНОМУ ДИПЛОМУ ПЕРЕМОЖЦЯ доставку виграшу буде здійснено БЕЗКОШТОВНО!</p>
+		<p>Завдяки Вашому ЧЕРВОНОМУ ДИПЛОМУ ПЕРЕМОЖЦЯ доставку виграшу буде здійснено БЕЗКОШТОВНО!<span class="star">*</span></p>
 	</div>
 	<div class="head secondBrown">
 		<img class="man" src="img/man.png" alt="man">
@@ -66,7 +66,95 @@
 		</div>
 	</div>
 	<div class="fourth">
-		<p>Ми надсилаємо Вам “БЛАНК НА ДОСТАВКУ ВИГРАШУ”.</p>
+		<p class="weSend">Ми надсилаємо Вам “БЛАНК НА ДОСТАВКУ ВИГРАШУ”.</p>
+		<img class="branchLeft" src="img/branch-left.png" alt="left">
+		<span class="tree"></span>
+		<img class="branchRight" src="img/branch-right.png" alt="right">
 	</div>
+	<div class="fifth">
+		<div class="fifthLeft">
+			<p>{{Name}},</p>
+			<p>Щоб отримати свій виграш – впишіть у “БЛАНК” зручну для Вас дату отримання виграшу та надішліть нам. Після цього кур’єр “PrizeMe” доставить Вам <span class="yellowText">317 000,00 гривень</span> прямо додому.<span class="star">*</span></p>
+		</div>
+		<div class="fifthRight">
+			<img src="img/blank.png" alt="blank">
+		</div>
+	</div>
+	<div class="delivery">
+		<p>ЗАПОВНЕНИЙ “БЛАНК НА ДОСТАВКУ ВИГРАШУ” – ВАША ГАРАНТІЯ ОТРИМАННЯ 317 000,00 ГРИВЕНЬ!<span class="star">*</span></p>
+	</div>
+	<div class="head sixth">
+		<p>ІНСТРУКЦІЯ З ОДЕРЖАННЯ ВИГРАШУ<span class="star">*</span></p>
+		<span class="line"></span>
+		<div class="images">
+			<img src="img/arrow.png" alt="arrow">
+			<img src="img/arrowVert.png" alt="arrowVert">
+			<img src="img/note.png" alt="note">
+			<img src="img/arrowVert.png" alt="arrowVert">
+			<img src="img/hand.png" alt="hand">
+			<img src="img/arrowVert.png" alt="arrowVert">
+			<img src="img/car.png" alt="car">
+		</div>
+		<div class="parag">
+			<div>
+				<div class="num">1</div>
+				<div class="text">Завантажте ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ або перепишіть його номер. Ознайомтся з ДОДАТКОМ.</div>
+			</div>
+			<div>
+				<div class="num">2</div>
+				<div class="text">Заповніть “БЛАНК НА ДОСТАВКУ ВИГРАШУ”. Обов’язково впишіть зручні для Вас тиждень виплат та день одержання грошей, а також адресу.</div>
+			</div>
+			<div>
+				<div class="num">3</div>
+				<div class="text">Оберіть уподобані товари з акційної товарної пропозиції. Акційна пропозиція від PrizeMe дійсна лише протягом 24 годин! Замовте будь-які товари за СУПЕРЦІНОЮ!</div>
+			</div>
+			<div>
+				<div class="num">4</div>
+				<div class="text">Заберіть на пошті посилку із замовленими товарами та очікуйте кур’єра, який БЕЗКОШТОВНО ПРИВЕЗЕ Вам гроші прямо додому.</div>
+			</div>
+		</div>
+		<p class="attantion">Увага: без Вашого замовлення “БЛАНК НА ДОСТАВКУ ВИГРАШУ” автоматично відбракується Системою автоматичної верифікації, а отже, виплата Вам 317 000,00 гривень НЕ ВІДБУДЕТЬСЯ!</p>
+		<div class="delivery">
+			<div>Якщо НЕ НАДІШЛЕТЕ ВІДПОВІДЬ – ВТРАТИТЕ 317 000,00 гривень назавжди!</div>
+		</div>
+	</div>
+	<div id="seventh">
+		<div class="blankBord">
+			<div class="blankSm">
+				<p class="titleBlank">БЛАНК НА ДОСТАВКУ ВИГРАШУ</p>
+				<div>
+					<img src="img/checked.png" alt="checked">
+					<pre>
+Я, {{Name}},
+як Головний переможець Акції погоджуюсь отримати свій виграш – 
+317 000,00 гривень – готівкою.<span class="star">*</span>
+					</pre>
+				</div>
+				<p class="iwait">Я очікую доставку грошового Призу:</p>
+				<form id="radioBtns">
+					<label><input type="radio" name="choose"><i></i>Першого тижня виплат (01–05.05)</label>
+					<label><input type="radio" name="choose"><i></i>Другого тижня виплат (06–12.05)</label>
+					<label><input type="radio" name="choose"><i></i>Третього тижня виплат (13–19.05)</label>
+					<label><input type="radio" name="choose"><i></i>Четвертого тижня виплат (20–26.05)</label>
+					<label><input type="radio" name="choose"><i></i>П’ятого тижня виплат (27.05–31.05)</label>
+				</form>
+				<p class="dayofweek">В зручний для мене день тижня:</p>
+				<select name="days" id="days">
+					<option value="Понеділок">Понеділок</option>
+					<option value="Вівторок">Вівторок</option>
+					<option value="Середа">Середа</option>
+					<option value="Четвер">Четвер</option>
+					<option value="П'ятниця">П'ятниця</option>
+					<option value="Субота">Субота</option>
+					<option value="Неділя">Неділя</option>
+				</select>
+			</div>
+		</div>
+		<a href="#items">НАДІСЛАТИ</a>
+		<p>Щоб Служба автоматичної верифікації не відбракувала Ваш БЛАНК НА ДОСТАВКУ ВИГРАШУ, зробіть обов’язкове замовлення товарів із <span>акційної пропозиції.</span></p>
+		<p class="annot">*Із правилами Акції "Золотий Фонд" можна ознайомитися за посиланням: https://prizeme.com.ua/obshchiye-pravila-i-polozheniya-provedeniya-aktsii-i-opredeleniya-pobediteley-prayz-mi.pdf</p>
+		<p class="annot">*Саме таке ім'я можуть мати співробітники компанії, якщо будуть обіймати відповідні посади на момент виплати Призу</p>
+	</div>
+	<div id="items"></div>
 </body>
 </html>
