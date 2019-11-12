@@ -719,6 +719,7 @@ span.yellBackgr {
   height: 19px;
   border: 2px solid #E2C765;
   position: relative;
+  margin-right: 5px;
 }
 .withPre input[type="checkbox"] + i::before {
   content: "v";

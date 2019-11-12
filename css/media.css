@@ -19,7 +19,6 @@
     .prizeMe p:nth-child(5){
         width: 100%;
     }
-
 }
 @media screen and (max-width: 1080px) {
     img {
@@ -505,5 +504,264 @@
     .deliveryBrown span.line {
         width: 214px;
         margin-left: -107px;
+    }
+    .deliveryBrown .weAreReady, .deliveryBrown .youMay {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .deliveryBrown .weAreReady {
+        width: 222px;
+        height: 99px;
+    }
+    .deliveryBrown .youMay {
+        width: 179px;
+        height: 98px;
+    }
+    .weSend {
+        width: 291px;
+        height: 101px;
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 30px;
+    }
+    .fifth {
+        height: 200px;
+    }
+    .fifthLeft {
+        margin-top: 75px;
+    }
+    .fifthLeft p {
+        margin-left: 18px; 
+    }
+    .fifthLeft p:first-child {
+        width: 80%;
+        height: 15px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .fifthLeft p:nth-child(2) {
+        width: 291px;
+        height: 92px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 4px;
+    }
+    .fifthRight {
+        display: none;
+    }
+    .sixth {
+        height: 970px;
+    }
+    .sixth p {
+        width: 305px;
+        height: 55px;
+        font-size: 24px;
+        line-height: 30px;
+        top: 22px;
+        text-align: left;
+        left: 0;
+        margin-left: 13px;
+    }
+    .sixth .line {
+        width: 270px;
+        margin-left: -135px;
+        top: 100px;
+    }
+    .images {
+        width: 60px;
+        height: 570px;
+        top: 142px;
+        left: 0;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .images img:nth-child(3), .images img:nth-child(5),
+    .images img:nth-child(7) {
+        margin-left: 25px;
+    }
+    .images img:nth-child(2), .images img:nth-child(4),
+    .images img:nth-child(6) {
+        display: none;
+    }
+    .images img:first-child {
+        margin-bottom: 30px;
+    }
+    .images img:nth-child(3) {
+        margin-bottom: 70px;
+    }
+    .images img:nth-child(7) {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 55px;
+    }
+    .parag {
+        width: 120px;
+        height: 570px;
+        top: 142px;
+        margin-left: 0;
+        left: 300px;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .num {
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .num::after {
+        content: ". ";
+    }
+    .parag > div:first-child {
+        width: 202px;
+        height: 83px;
+    }
+    .parag > div:nth-child(2) {
+        width: 212px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+    .parag > div:nth-child(3) {
+        width: 181px;
+        height: 122px;
+    }
+    .parag > div:nth-child(4) {
+        width: 188px;
+        height: 105px;
+        position: absolute;
+        bottom: 0;
+    }
+    .sixth .attantion {
+        width: 289px;
+        height: 69px;
+        border: 1px solid #DD9E23;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 12px;
+        text-align: center;
+        left: 50%;
+        margin-left: -144.5px;
+        top: 500px;
+        padding-top: 10px;
+    }
+    .sixth .delivery {
+        width: 97.5%;
+        height: 164px;
+        left: 0;
+        margin-left: 0;
+    }
+    .sixth .delivery div {
+        width: 309px;
+        height: 107px;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .blankBord {
+        height: 836px;
+    }
+    .blankBord .blankSm {
+        width: 97.5%;
+        height: 100%;
+        background: #FFFCEB;
+    }
+    .blankSm > .titleBlank {
+        width: 100%;
+        height: 26px;
+        font-size: 22px;
+        line-height: 23px;
+        margin: 20px 0;
+    }
+    .blankSm .withPre {
+        height: 67px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+    .withPre label {
+        width: inherit;
+        margin-left: 14px;
+        margin-bottom: 20px;
+        justify-content: start;
+    }
+    .withPre input[type="checkbox"] + i {
+        margin-right: 16px;
+    }
+    .blankSm .iwait {
+        width: 256px;
+        height: 47px;
+        font-size: 18px;
+        line-height: 23px;
+        margin: 0 0 20px 49px;
+    }
+    #radioBtns label {
+        width: 250px;
+        justify-content: start;
+        margin-bottom: 14px;
+    }
+    input[type="radio"] + i {
+        margin-right: 5px;
+    }
+    .dayofweek {
+        width: 263px;
+        height: 21px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    #radioBtns + div {
+        margin-left: 49px;
+    }
+    .tel {
+        margin: 15px 0 0 49px;
+        float: left;
+    }
+    .tel + p {
+        width: 263px;
+        height: 20px;
+        font-size: 15px;
+        line-height: 19px;
+        margin: 240px 0 7px 49px;
+        z-index: 1;
+    }
+    .tel + p + input[type="text"] {
+        width: 266px;
+        padding: 12px 0 5px 21px;
+        margin-left: 49px;
+    }
+    .tel + p + input[type="text"]::placeholder {
+        font-size: 9px;
+        line-height: 12px;
+        text-align: center;
+    }
+    input[type="text"] + label, .checked {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 14px;
+        justify-content: start;
+    }
+    input[type="text"] + label p, .checked p {
+        width: 265px;
+        height: 44px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    input[type="checkbox"] + i {
+        margin-right: 16px;
+    }
+    #seventh > a + p {
+        width: 100%;
+        height: 121px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #seventh p.annot {
+        width: 281.62px;
+        height: 18px;
+        font-weight: 500;
+        font-size: 5px;
+        line-height: 6px;
+        margin-bottom: 5px;
     }
 }
