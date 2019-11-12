@@ -46,7 +46,7 @@
 			<p>Завантажте ДИПЛОМ або запишіть його номер для пред’явлення кур’єру Служби доставки (за бажанням можете роздрукувати ДИПЛОМ, після завантаження). Ознайомтеся з ДОДАТКОМ, щоб дізнатись усі подробиці Вашої перемоги.</p>
 		</div>
 		<div class="diplomView">
-			<img class="diplom" src="img/diplom.jpg" alt="diplom">
+			<a href="img/diplom.jpg"><img class="diplom" src="img/diplom.jpg" alt="diplom"></a>
 			<a href="img/diplom.jpg" download>ЗАВАНТАЖИТИ</a>
 			<img class="addition" src="img/addition.png" alt="addition">
 		</div>
@@ -123,12 +123,14 @@
 			<div class="blankSm">
 				<p class="titleBlank">БЛАНК НА ДОСТАВКУ ВИГРАШУ</p>
 				<div class="withPre">
-					<img src="img/checked.png" alt="checked">
-					<pre>
+					<label>
+						<input type="checkbox" checked><i></i>
+						<pre>
 Я, {{Name}},
 як Головний переможець Акції погоджуюсь отримати свій виграш – 
 317 000,00 гривень – готівкою.<span class="star">*</span>
-					</pre>
+						</pre>
+					</label>
 				</div>
 				<p class="iwait">Я очікую доставку грошового Призу:</p>
 				<form id="radioBtns">
@@ -172,5 +174,6 @@
 		<p class="annot">*Саме таке ім'я можуть мати співробітники компанії, якщо будуть обіймати відповідні посади на момент виплати Призу</p>
 	</div>
 	<div id="items"></div>
+	<script src="js/script.js"></script>
 </body>
 </html>
