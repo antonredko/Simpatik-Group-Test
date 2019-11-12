@@ -1,0 +1,509 @@
+@media screen and (max-width: 1170px) {
+    .second, .third, .fourth, .fifth, #seventh {
+        width: 100%;
+    }
+    #items {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1166px) {
+    .prizeMe {
+        width: 50%;
+        margin-left: 80px;
+    }
+    .diplomView {
+        width: 30%;
+    }
+    .prizeMe p:first-child, .prizeMe p:nth-child(2),
+    .prizeMe p:nth-child(3), .prizeMe p:nth-child(4),
+    .prizeMe p:nth-child(5){
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1080px) {
+    img {
+        margin-right: 0;
+    }
+    .title {
+        width: 90%;
+        padding-left: 10px;
+        left: 0;
+        margin-left: 0;
+    }
+    .diplom {
+        margin: 0 0 06px 0;
+    }
+    .diplomView a:nth-child(2) {
+        margin: 0 0 46px 0;
+    }
+    .addition {
+        margin-left: 15px;
+    }
+    .fifthLeft p {
+        margin-left: 80px;
+    }
+    .man {
+        margin-right: 0;
+      }
+    #seventh > a + p {
+        width: 90%;
+        font-size: 30px;
+    }
+    #seventh p.annot {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 988px) {
+    .deliveryBrown {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 940px) {
+    .first {
+        height: 565px;
+    }
+    .head > img {
+        width: 351px;
+        height: 391px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .sign p {
+        font-size: 12px;
+    }
+    .giving {
+        font-size: 30px;
+    }
+    .line {
+        width: 435px;
+        top: 243px;
+    }
+    .congr {
+        top: 276px;
+    }
+    .title a {
+        top: 441px;
+    }
+    .nameCongr span, .success, .redDiplom {
+        font-size: 26px;
+    }
+    .success {
+        width: 80%;
+        margin-left: -40%;
+        top: 95px;
+    }
+    .secondBrown {
+        height: 548px;
+    }
+    .deliveryBrown {
+        height: 538px;
+    }
+    .weAreReady, .youMay {
+        font-size: 18px;
+    }
+    .weSend {
+        width: 575px;
+        font-size: 30px;
+    }
+    .third {
+        height: 585px;
+    }
+    .prizeMe p:nth-child(2) {
+        margin-bottom: 8px;
+      }
+    .prizeMe p:nth-child(2), .prizeMe p:nth-child(3),
+    .prizeMe p:nth-child(5) {
+        font-size: 16px;
+    }
+    .prizeMe p:first-child, .diplomView a {
+        font-size: 20px;
+    }
+    .delivery p, .delivery {
+        font-size: 24px;
+    }
+    .deliveryBrown p:first-child, .deliveryBrown p:nth-child(2),
+    .deliveryBrown p:nth-child(3) {
+        font-size: 24px;
+    }
+    .deliveryBrown p:nth-child(2) {
+        padding-left: 50px;
+    }
+    div.parag {
+        width: 100%;
+        margin-left: -50%; 
+    }
+    div.parag > div {
+        width: 25%;
+    }
+    .attantion + .delivery {
+        width: 90%;
+        margin-bottom: 36px;
+        margin-left: -46%;
+    }
+    .delivery div {
+        width: 90%;
+    }
+    .diplomView {
+        float: left;
+        margin-left: 30px;
+    }
+    .tree {
+        width: 540px;
+        margin-left: -260px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .title {
+        height: 100%;
+    }
+    .tree {
+        width: 490px;
+        margin-left: -230px;
+    }
+    .delivery {
+        width: 98%;
+        margin: 0 0 36px 0;
+    }
+    .blankBord {
+        width: 100%;
+        height: 780px;
+    }
+    .blankBord .blankSm {
+        width: 95%;
+        height: 750px;
+    }
+    .sixth .line {
+        width: 100%;
+    }
+    .sixth .attantion {
+        width: 100%;
+        font-size: 20px;
+        margin-left: -50%;
+    }
+    .sign {
+        width: 435px;
+    }
+    .sign img {
+        right: 0;
+    }
+    .fifthLeft p {
+        margin-left: 10px; 
+    }
+    .fifthLeft p:nth-child(2) {
+        width: 100%;
+    }
+    .fifthRight img {
+        margin-left: 20px;
+    }
+    .withPre label, .blankSm .iwait {
+        margin-left: 60px;
+    }
+    #radioBtns {
+        width: 90%;
+        padding-left: 20px;
+    }
+    #radioBtns + div, .tel, .tel + p + input[type="text"],
+    input[type="text"] + label, .checked {
+        margin-left: 60px;
+    }
+    #radioBtns + div, .tel {
+        width: 250px;
+    }
+    #radioBtns + div {
+        margin-top: 17px;
+    }
+    .tel + p {
+        margin-top: 140px;
+    }
+    .third {
+        height: 655px;
+    }
+    .prizeMe {
+        height: 100%;
+    }
+    .sixth p {
+        width: 100%;
+        margin-left: -50%;
+    }
+    .sixth .line {
+        margin-left: -50%;
+    }
+    #days {
+        padding: 16px 100px 12px 39px;
+    }
+    input[type="tel"] {
+        padding: 16px 40px 12px 27px;
+    }
+    .prizeMe p:nth-child(2) {
+        height: 147px;
+    }
+    .prizeMe p:nth-child(3) {
+        height: 95px;
+    }
+    .prizeMe p:nth-child(4), .prizeMe p:nth-child(5) {
+        height: 129px;
+    }
+    span.yellBackgr {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 775px) {
+    .fifthRight img {
+        width: 280px;
+        height: 200px;
+    }
+    .images {
+        width: 100%;
+    }
+    .success {
+        width: 70%;
+        margin-left: -35%;
+    }
+    .redDiplom {
+        top: 169px;
+    }
+    .tree {
+        width: 320px;
+        top: 230px;
+        margin-left: -150px;
+    }
+    .branchLeft, .branchRight {
+        top: 25px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .first {
+        height: 550px;
+    }
+    .title {
+        width: 100%;
+        height: 100%;
+        padding-left: 18px;
+    }
+    .note {
+        width: 287px;
+        font-size: 5px;
+        line-height: 6px;
+        margin-top: 8px;
+    }
+    .title img {
+        position: absolute;
+        top: 30px;
+    }
+    .name {
+        font-size: 24px;
+        line-height: 33px;
+        top: 60px;
+    }
+    .forU {
+        width: 100%;
+        top: 100px;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .line {
+        width: 167px;
+        top: 165px;
+        border: 2px solid #DBAB00;
+    }
+    .congr {
+        width: 176px;
+        height: 148px;
+        font-size: 14px;
+        line-height: 16px;
+        top: 190px;
+    }
+    .title a {
+        padding: 13px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        top: 360px;
+    }
+    .sign {
+        width: 186px;
+        height: 39px;
+    }
+    .sign p {
+        width: 144px;
+        height: 12.91px;
+        font-weight: normal;
+        font-size: 7px;
+        line-height: 4px;
+        right: 25px;
+        top: 15px; 
+    }
+    .sign img {
+        width: 55px;
+        height: 55px;
+        top: -10px;
+        left: -8px;
+    }
+    .star {
+        width: 4.45px;
+        height: 9.11px;
+        margin: 0;
+    }
+    .head > img {
+        width: 251px;
+        height: 291px;
+        right: -77px;
+    }
+    .second {
+        width: 100%;
+        height: 270px;
+        margin: 0;
+    }
+    .nameCongr {
+        width: 100%;
+        margin: 33px 0 0 -50%;
+    }
+    .nameCongr span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .success {
+        width: 100%;
+        margin-left: -50%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .redDiplom {
+        width: 100%;
+        height: 67px;
+        font-size: 24px;
+        line-height: 33px;
+        margin-left: -50%;
+        top: 149px;
+    }
+    .tree {
+        display: none;
+    }
+    .third {
+        height: 1030px;
+    }
+    .branchLeft {
+        top: 40px;
+        left: -10px;
+        transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+        -webkit-transform: rotate();
+    }
+    .branchRight {
+        top: 40px;
+        right: -5px;
+        transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        -moz-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        -webkit-transform: rotate();
+    }
+    .prizeMe {
+        width: 100%;
+        height: 515px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .prizeMe p:first-child {
+        width: 233px;
+        height: 36px;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 0 6px 0;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+    }
+    .prizeMe p:nth-child(2) {
+        width: 284px;
+        height: 83px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .prizeMe p:nth-child(3) {
+        width: 284px;
+        height: 67px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 30px;
+    }
+    .prizeMe p:nth-child(4) {
+        width: 100%;
+        height: 116px;
+        margin: 0;
+    }
+    span.yellBackgr {
+        width: 257px;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .prizeMe p:nth-child(5) {
+        width: 284px;
+        height: 80px;
+        margin: 11px 0 0 0;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .diplomView {
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .addition {
+        margin: 0;
+    }
+    .delivery {
+        margin-bottom: 30px;
+    }
+    .delivery p {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    img.man {
+        right: -60px;
+    }
+    .deliveryBrown {
+        height: 631px;
+    }
+    .deliveryBrown p:first-child {
+        width: 110px;
+        height: 34px;
+        margin-left: -55px;
+    }
+    .deliveryBrown p:nth-child(2) {
+        width: 248px;
+        height: 61px;
+        padding: 0;
+        margin-left: -124px;
+        text-align: center;
+    }
+    .deliveryBrown p:nth-child(3) {
+        width: 292px;
+        height: 99px;
+        margin-left: -146px;
+    }   
+    .deliveryBrown p:first-child, .deliveryBrown p:nth-child(2),
+    .deliveryBrown p:nth-child(3) {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .deliveryBrown span.line {
+        width: 214px;
+        margin-left: -107px;
+    }
+}
