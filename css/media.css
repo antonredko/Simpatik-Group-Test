@@ -526,6 +526,9 @@
         line-height: 33px;
         margin-top: 30px;
     }
+    .fourth .branchLeft, .fourth .branchRight {
+        top: -39.5px;
+    }
     .fifth {
         height: 200px;
     }
@@ -555,6 +558,9 @@
     }
     .fifth + div.delivery {
         height: 230px;
+    }
+    .fifth + div.delivery p {
+        height: 160px;
     }
     .sixth {
         height: 970px;
@@ -607,7 +613,7 @@
         height: 570px;
         top: 142px;
         margin-left: 0;
-        left: 300px;
+        left: 280px;
         flex-direction: column;
         justify-content: start;
     }
@@ -631,7 +637,7 @@
     }
     .parag > div:nth-child(3) {
         width: 181px;
-        height: 122px;
+        height: 132px;
     }
     .parag > div:nth-child(4) {
         width: 188px;
@@ -655,7 +661,7 @@
         padding-top: 10px;
     }
     .sixth .delivery {
-        width: 97.5%;
+        width: 94.5%;
         height: 164px;
         left: 0;
         margin-left: 0;
@@ -670,7 +676,7 @@
         height: 836px;
     }
     .blankBord .blankSm {
-        width: 97.5%;
+        width: 96.5%;
         height: 100%;
         background: #FFFCEB;
     }
@@ -732,8 +738,11 @@
         margin: 240px 0 7px 49px;
         z-index: 1;
     }
+    input[type="tel"] {
+        padding: 14px 30px 12px 25px;
+    }
     .tel + p + input[type="text"] {
-        width: 266px;
+        width: 230px;
         padding: 12px 0 5px 21px;
         margin-left: 49px;
     }
@@ -749,7 +758,7 @@
         justify-content: start;
     }
     input[type="text"] + label p, .checked p {
-        width: 265px;
+        width: 255px;
         height: 44px;
         font-size: 12px;
         line-height: 15px;
