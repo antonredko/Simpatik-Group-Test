@@ -347,10 +347,13 @@
         height: 9.11px;
         margin: 0;
     }
-    .head > img {
-        width: 251px;
-        height: 291px;
-        right: -77px;
+    .first > img {
+        width: 174px;
+        height: 283px;
+    }
+    .secondBrown > img {
+        width: 239px;
+        height: 339px;
     }
     .second {
         width: 100%;
@@ -386,7 +389,7 @@
         height: 1030px;
     }
     .branchLeft {
-        top: 40px;
+        top: 70px;
         left: -10px;
         transform: rotate(-15deg);
         -webkit-transform: rotate(-15deg);
@@ -396,7 +399,7 @@
         -webkit-transform: rotate();
     }
     .branchRight {
-        top: 40px;
+        top: 70px;
         right: -5px;
         transform: rotate(15deg);
         -webkit-transform: rotate(15deg);
@@ -467,14 +470,13 @@
         margin: 0;
     }
     .delivery {
+        width: 95%;
+        height: 165px;
         margin-bottom: 30px;
     }
     .delivery p {
         font-size: 24px;
         line-height: 33px;
-    }
-    img.man {
-        right: -60px;
     }
     .deliveryBrown {
         height: 631px;
@@ -551,6 +553,9 @@
     .fifthRight {
         display: none;
     }
+    .fifth + div.delivery {
+        height: 230px;
+    }
     .sixth {
         height: 970px;
     }
@@ -617,11 +622,12 @@
     .parag > div:first-child {
         width: 202px;
         height: 83px;
+        margin-bottom: 15px;
     }
     .parag > div:nth-child(2) {
         width: 212px;
         height: 100px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .parag > div:nth-child(3) {
         width: 181px;
@@ -632,6 +638,7 @@
         height: 105px;
         position: absolute;
         bottom: 0;
+        margin-bottom: 15px;
     }
     .sixth .attantion {
         width: 289px;
@@ -755,6 +762,7 @@
         height: 121px;
         font-size: 18px;
         line-height: 25px;
+        margin-bottom: 15px;
     }
     #seventh p.annot {
         width: 281.62px;

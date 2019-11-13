@@ -1,10 +1,20 @@
 const diplomLink = document.getElementsByClassName('diplomView')[0].
                             getElementsByTagName('a')[0],
     additionLink = document.getElementsByClassName('diplomView')[0].
-                            getElementsByTagName('a')[2];
+                            getElementsByTagName('a')[2],
+    firstImage = document.getElementsByClassName('first')[0].
+                        getElementsByTagName('img')[0],
+    secondImage = document.getElementsByClassName('secondBrown')[0].
+                        getElementsByTagName('img')[0];
 
+window.addEventListener('load', changeImages);
 diplomLink.addEventListener('click', showDiplom);
 additionLink.addEventListener('click', showAddition);
+
+function changeImages() {
+    window.screen.width <= 414 ? firstImage.src = 'img/DepositSmall.png' : firstImage.src = 'img/Deposit.png';
+    window.screen.width <= 414 ? secondImage.src = 'img/manSmall.png' : firstImage.src = 'img/man.png';
+}
 
 function hideChildren() {
     for(i = 0; i < document.body.children.length; i += 1) {
