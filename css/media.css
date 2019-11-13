@@ -638,6 +638,7 @@
     .parag > div:nth-child(3) {
         width: 181px;
         height: 132px;
+        margin-bottom: 15px;
     }
     .parag > div:nth-child(4) {
         width: 188px;
